@@ -1,0 +1,36 @@
+:root {
+  /* fonts */
+  --main-font: 'Noto sans', sans-serf
+  /* colors */
+  --main-dark-font: #070707;
+  --main-secont-font: #828282;
+ 
+  --main-light-font: #ffffff;
+
+}
+
+body  {
+    font-family: var(--main-font);
+}
+
+.container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.section-crl {
+    background-color: #fff;
+}
+
+.section-title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--main-secont-font)
+}
